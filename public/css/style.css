@@ -1,0 +1,126 @@
+  /* Estilos de la tarjeta */
+  .login-card {
+    border: none;
+    border-radius: 1rem;
+    background: #fff;
+  }
+  
+  /* Título */
+  .login-card h3 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Inputs */
+  .login-card .form-control {
+    border-radius: 0.75rem;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    font-size: 16px;
+    transition: all 0.3s;
+  }
+  
+  .login-card .form-control:focus {
+    border-color: #7f7fd5;
+    box-shadow: 0 0 5px rgba(127, 127, 213, 0.5);
+    background-color: #fff;
+  }
+  
+  /* Botón */
+  .login-card .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 12px;
+    border-radius: 0.75rem;
+    font-size: 16px;
+  }
+  
+  .login-card .btn-primary:hover {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+  }
+  
+  /* Mensaje */
+  #mensaje {
+    color: red;
+    font-size: 14px;
+  }
+
+  
+
+  /* Contenedor principal */
+.container {
+    max-width: 900px;
+  }
+  
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 0.75rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra alrededor */
+    border-radius: 12px; /* Bordes redondeados para que se vea más "card" */
+    overflow: hidden; /* Evita que la sombra salga de los bordes */
+  }
+  
+  .table thead {
+    background-color: #f8f9fa;
+  }
+  
+  .table tbody tr {
+    background: linear-gradient(135deg, #f0f2f5, #d9dee3);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .table tbody tr:hover {
+    background: linear-gradient(135deg, #d6dce5, #c2c8d0);
+  }
+  
+  /* Celdas */
+  .table td, .table th {
+    vertical-align: middle;
+    border: none;
+  }
+  
+  
+  /* Botones de acciones */
+  .btn-acciones {
+    background: linear-gradient(135deg, #5a5a5a, #1d1d1d);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-acciones:hover {
+    background: linear-gradient(135deg, #3a3a3a, #0d0d0d);
+  }
+  
+  /* Modal */
+  .modal-content {
+    border-radius: 1rem;
+  }
+  
+  .form-control {
+    border-radius: 0.75rem;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Botón Guardar */
+  .btn-success {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0.75rem;
+  }
+  
+  .btn-success:hover {
+    background: linear-gradient(135deg, #1d4350, #3a3a52);
+  }
+  
+  
